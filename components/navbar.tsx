@@ -78,7 +78,7 @@ export function Navbar() {
                 alt="Diamond Mandap Decoration"
                 width={50}
                 height={50}
-                className="rounded-full border-2 border-gold/50"
+                className="rounded-full border-1 border-gold/50"
               />
               <div className="hidden sm:block">
                 <p className="text-gold font-semibold text-lg leading-tight">Diamond Mandap</p>
@@ -108,7 +108,7 @@ export function Navbar() {
                   {activeSection === link.href.slice(1) && (
                     <motion.span
                       layoutId="activeSection"
-                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-gold to-secondary"
+                      className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-400 to-yellow-600"
                       transition={{ type: "spring", stiffness: 380, damping: 30 }}
                     />
                   )}

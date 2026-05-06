@@ -110,7 +110,7 @@ export function Gallery() {
               whileTap={{ scale: 0.95 }}
               className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeFilter === filter
-                  ? "bg-gradient-to-r from-primary via-gold to-secondary text-gold-foreground shadow-lg shadow-gold/25"
+                  ? "bg-gradient-to-r from-amber-400 to-yellow-600 text-black shadow-lg shadow-amber-500/30"
                   : "bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground border border-border"
               }`}
             >
