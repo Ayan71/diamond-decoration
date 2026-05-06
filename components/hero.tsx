@@ -49,6 +49,8 @@ export function Hero() {
           quality={90}
         />
       </motion.div>
+   
+      
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background z-10" />
@@ -61,17 +63,17 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-8"
+          className="mb-2"
         >
           <Image
             src="/logo.jpeg"
             alt="Diamond Mandap Decoration"
             width={120}
             height={120}
-            className="mx-auto rounded-full border-4 border-gold/50 shadow-2xl shadow-gold/20"
+            className="mx-auto rounded-full  border-gold/50 shadow-2xl shadow-gold/20"
           />
         </motion.div>
-
+         <p className="text-gold font-medium italic">Since 1887</p>
         {/* Animated Heading */}
         <motion.h1
           variants={containerVariants}
